@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tony Bhaskar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="util.css">
 </head>
+
 <body>
-    <h1>Hello, I'm TONY BHASKAR 👋</h1>
+    <header>
+        <nav>
+            <h1 id="nav-brand"><a href="index.html">Tony Bhaskar</a></h1>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <ul>
+                <!-- <li><a href="index.html">Home</a></li> -->
+                <li><a href="./about-page/about.html">About</a></li>
+                <li><a href="./contact-page/contact.html">contact</a></li>
+                <li><a href="./projects-page/projects.html">Projects</a></li>
+                <li><a href="./skills-page/skills.html">Skills</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="image">
+                <img id="profile-image" src="./media/profile-image.jpg" alt="">
+            </div>
+            <br>
+            <h1>TONY BHASKAR</h1>
+            <p>A recent Computer Science Graduate</p>
+        </div>
+    </header>
+    <footer>
+        <div>
+            <p>Designed By Tony Bhaskar</p>
+            <p>&#169; Tony Bhaskar Last Updated Nov-2024</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
