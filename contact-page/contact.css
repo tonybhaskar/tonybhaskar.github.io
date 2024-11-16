@@ -17,6 +17,7 @@
 
 .contact p {
     font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .images-contact {
@@ -87,9 +88,15 @@
 
     .images-contact {
         flex-direction: column;
+        gap: 15px;
     }
 
     .contact h1 {
         font-size: 2.2rem;
+    }
+
+    #git-statement {
+        margin-top: 25px;
+        margin-bottom: 10px;
     }
 }
