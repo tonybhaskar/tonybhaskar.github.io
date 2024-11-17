@@ -79,6 +79,7 @@ footer div p {
     /* Show hamburger icon */
     .hamburger {
         display: block;
+        font-size: 1.5rem;
     }
 
     nav {
@@ -115,5 +116,10 @@ footer div p {
 
     nav a {
         font-size: 1.2rem;
+    }
+
+    nav h1 a {
+        font-size: 1.4rem;
+        font-family: "Lato";
     }
 }

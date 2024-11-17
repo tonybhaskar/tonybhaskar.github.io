@@ -8,6 +8,9 @@
 }
 
 
+.skill-img {
+    user-select: none;
+}
 
 
 .skill-img:hover {
