@@ -100,6 +100,7 @@ span {
         align-items: center;
         padding-left: 70px;
         padding-right: 70px;
+        padding-bottom: 10px;
     }
 
     .extra-details {
@@ -129,7 +130,6 @@ span {
     .right h1 {
         width: 100%;
     }
-
 
 }
 
