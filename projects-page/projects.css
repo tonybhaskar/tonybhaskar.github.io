@@ -6,6 +6,11 @@
     margin-bottom: 30px;
 }
 
+.project-details a h2 {
+    color: #f04800;
+    margin-bottom: 10px;
+}
+
 .project1 {
     display: flex;
     gap: 40px;
@@ -40,11 +45,19 @@
     .projects {
         padding: 70px 120px;
     }
+
+    .project1 {
+        gap: 30px;
+    }
 }
 
 @media (max-width:1205px) {
     .projects {
         padding: 55px 70px;
+    }
+
+    .project1 {
+        gap: 25px;
     }
 }
 
@@ -57,6 +70,10 @@
 @media (max-width:896px) {
     .project1 {
         flex-direction: column;
+    }
+
+    .project1 {
+        gap: 10px;
     }
 
     .project-image {
