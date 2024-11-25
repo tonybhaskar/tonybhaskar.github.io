@@ -2,7 +2,7 @@
     height: 90vh;
     display: flex;
     flex-direction: column;
-    padding: 80px 180px;
+    padding: 50px 180px;
 }
 
 .contact a {
@@ -37,14 +37,15 @@
 
     border: 1px solid;
     width: max-content;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 100px;
     background-color: white;
     align-items: center;
 }
 
 .boxes p {
     margin: 0;
+    /* color: black; */
 }
 
 .boxes:hover {
@@ -94,7 +95,7 @@
 @media (max-width: 500px) {
 
     .images-contact {
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 15px;
     }
 
